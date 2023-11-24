@@ -1,0 +1,31 @@
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  background-color: #161616;
+  width: 100vw;
+}
+
+@keyframes textStrokeAnimation {
+  0% {
+    -webkit-text-stroke-color: 1px #78a88b;
+    text-shadow: 1px 1px 30px #549e71;
+  }
+  50% {
+    -webkit-text-stroke-color: 4px #4dff94;
+    text-shadow: 1px 3px 40px #4dff94;
+  }
+  100% {
+    -webkit-text-stroke-color: 1px #549e71;
+    text-shadow: 1px 1px 30px #549e71;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #4dff94;
+}
