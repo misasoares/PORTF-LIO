@@ -5,7 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import eu from "../public/eu.png";
+import eu from "../src/images/eu.png";
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: "#161616",
   ...theme.typography.body2,
